@@ -66,7 +66,7 @@ class LaunchViewController: UIViewController {
         func loadInterstitial() async {
           do {
             interstitial = try await AdManagerInterstitialAd.load(
-              with: "ca-app-pub-3940256099942544/4411468910", request: AdManagerRequest())
+              with: "ca-app-pub-4653214442142853/3370815727", request: AdManagerRequest())
             interstitial?.fullScreenContentDelegate = self
               interstitial.present(from: self)
           } catch {

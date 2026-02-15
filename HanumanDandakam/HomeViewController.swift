@@ -95,7 +95,7 @@ extension HomeViewController: BannerViewDelegate {
     
     func loadBanner() {
         let bannerView = BannerView()
-        bannerView.adUnitID = "ca-app-pub-3940256099942544/2435281174"
+        bannerView.adUnitID = "ca-app-pub-4653214442142853/4847548928"
         bannerView.translatesAutoresizingMaskIntoConstraints = false
         bannerView.delegate = self
         self.view.addSubview(bannerView)
